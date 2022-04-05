@@ -1,38 +1,127 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+.main-title{
+  font-family: 'Comforter', cursive;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.butt{
+  height: 3rem;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(214, 75, 19);
+  color: white;
+  transition: 0.5s;
+  margin-left: 10px;
+
+}
+.butt:hover{
+  background-color: rgb(235, 212, 206);
+  color: rgb(214, 75, 19);
+ ;
+}
+.no-border{
+  border-bottom: none !important;
+}
+.home-butt{
+  transition: 0.5s;
+}
+.home-butt:hover{
+  font-weight: 500;
+
+}
+
+/* category and date under picture post */
+.small-text{
+  font-size: 13px;
+}
+.bolded-text{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* main banner text  */
+.cover-title{
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.author_img{
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.spacing{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.adding_space{
+  margin-bottom: 20px;
+}
+
+
+/* code for the tabs  */
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+
+.center{
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu-butt{
+  background-color: rgb(190, 193, 236);
+  color: rgb(0, 0, 0);
+  border: 2px azure;
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.menu-butt:hover{
+  background-color: rgb(145, 150, 219);
+  color: rgb(48, 46, 46);
+}
+.add-to-cart{
+  background-color: rgb(18, 109, 53);
+  color: rgb(221, 236, 221);
+  border: 2px azure;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 19px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Tab Screen Edits made to the add on button will also include some fun Javascript functionality! */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-on-butt{
+  padding: 20px;
+  background-color: beige;
 }
-
-.App-link {
-  color: #61dafb;
+.add-butt{
+  color: beige;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.size-of-add{
+  font-size: 40px;
+  padding-right: 10px;
 }
